@@ -39,13 +39,6 @@ ul {
 #conclusion {
   margin-bottom:2rem;
 }
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f8b400;
-  color: #555;
-}
 figure {
   width: 100%;
   background: #fff;
@@ -56,6 +49,7 @@ figure {
 }
 body {
   margin: 0;
+  padding: 0;
 }
 a {
   color: #004445;
@@ -68,11 +62,15 @@ a:hover {
 }
 .footer-text{
   font-size:1rem;
-}
-.line {
+  text-align: center;
+  background-color: #f8b400;
+  color: #555;
+  padding: 1.5rem 0;
   width: 100%;
-  height: 2px;
-  background-color: #004445;
+}
+footer{
+    margin: 0;
+    padding: 0;
 }
 .card-description{
   text-align: center;
@@ -84,7 +82,7 @@ a:hover {
   padding-top: 4rem;
   margin: 0;
 }
-h1,h2,p{
+h1,h2,p,h4{
   margin: 0;
   padding:0;
 }
