@@ -65,7 +65,8 @@ a:hover {
   text-align: center;
   background-color: #f8b400;
   color: #555;
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
   width: 100%;
 }
 footer{
